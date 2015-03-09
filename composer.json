@@ -1,0 +1,8 @@
+{
+    "name": "pandaoknight/hello_composer_package",
+    "description": "This is my hello composer package on github.",
+    "require": {
+        "php": ">=5.3.0",
+        "yzalis/identicon": "1.*"
+    }
+}
