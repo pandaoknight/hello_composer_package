@@ -1,0 +1,6 @@
+#PHP composer
+vendor
+composer.lock
+
+#general
+*.swp
