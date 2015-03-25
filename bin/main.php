@@ -16,7 +16,8 @@ if(@include_once(__DIR__ . $project_mode_path)){
 
 require_once(__DIR__ . "/hello/Hello.class.php");
 
-use pandaoknight\hello_composer_package\hello\Hello as Hello;
+use pandaoknight\hello_composer_package\hello\Hello;
+#use pandaoknight\hello_composer_package\hello\Hello as Hello; // 没有必要使用别名
 
 
 $hello_obj = new Hello("Panda");
