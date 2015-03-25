@@ -9,6 +9,4 @@ use pandaoknight\hello_composer_package\hello\Hello as Hello;
 $hello_obj = new Hello("Panda");
 #$hello_obj = new hello\Hello("Panda");
 $hello_obj->hello();
-
-
 ?>
