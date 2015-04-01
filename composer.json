@@ -6,6 +6,6 @@
         "yzalis/identicon": "1.*"
     },
     "autoload": {
-        "psr-4": {"pandaoknight\\hello_composer_package": "bin/"}
+        "psr-4": {"pandaoknight\\hello_composer_package\\": "bin/"}
     }
 }
