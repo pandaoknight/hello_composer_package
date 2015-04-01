@@ -1,7 +1,7 @@
 <?php
 namespace pandaoknight\hello_composer_package\hello;
 
-include_once(__DIR__ . "/../../vendor/autoload.php");
+#include_once(__DIR__ . "/../../vendor/autoload.php");
 #use Identicon;
 
 
