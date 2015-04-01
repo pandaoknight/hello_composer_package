@@ -2,7 +2,7 @@
 namespace pandaoknight\hello_composer_package\hello;
 
 #include_once(__DIR__ . "/../../vendor/autoload.php");
-#use Identicon;
+use Identicon\Identicon;
 
 
 class Hello{
@@ -20,8 +20,9 @@ class Hello{
         return $this->_name;
     }
 
-    public function genIdenticon(){
-    
+    public function genIdenticon($name){
+        $id = new Identicon();
+        return $id->getImageDataUri($name);
     }
 }
 ?>

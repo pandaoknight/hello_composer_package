@@ -16,7 +16,7 @@ if(@include_once(__DIR__ . $project_mode_path)){
 #
 
 require_once(__DIR__ . "/hello/Hello.php");
-#require_once(__DIR__ . "/hello/Hello.class.php");
+#require_once(__DIR__ . "/hello/Hello.class.php");  // 注意：Hello.class.php是不符合psr-4的。
 
 use pandaoknight\hello_composer_package\hello\Hello;
 #use pandaoknight\hello_composer_package\hello\Hello as Hello; // 没有必要使用别名
@@ -25,4 +25,6 @@ use pandaoknight\hello_composer_package\hello\Hello;
 $hello_obj = new Hello("Panda");
 #$hello_obj = new hello\Hello("Panda");
 $hello_obj->hello();
+
+print $hello_obj->genIdenticon("Panda") . "\n";
 ?>
